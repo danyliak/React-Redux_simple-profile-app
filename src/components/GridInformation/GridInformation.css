@@ -1,0 +1,7 @@
+.grid-information {
+  flex: 1 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-width: .06rem 0 0 .06rem;
+  border-color: #ddd;
+  border-style: solid; }

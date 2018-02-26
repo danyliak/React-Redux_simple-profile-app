@@ -1,0 +1,35 @@
+@import "../../sass/variables"
+
+.editable-field-wrap
+  display: flex
+  align-items: center
+  transition: $transition
+  border: .06rem solid transparent
+  padding: 0 .3rem
+  margin: .3rem 0
+  cursor: pointer
+  &:hover
+    border-color: $editable-field-border-color
+  .editable-actions
+    margin-left: auto
+    display: flex
+    align-items: center
+    > span
+      display: flex
+      align-items: center
+    svg
+      background: $svg-grey-bg
+      border-radius: 50%
+      margin: 0 .2rem
+      padding: .1rem
+      cursor: pointer
+      transition: $transition
+      &:hover
+        background-color: $svg-hover-bg
+  [contenteditable]
+    outline: none
+    cursor: text
+    word-break: break-all
+  &.active-editable
+    background-color: #fff
+    border-color: $editable-field-border-color

@@ -1,0 +1,33 @@
+.editable-field-wrap {
+  display: flex;
+  align-items: center;
+  transition: all 0.25s ease;
+  border: .06rem solid transparent;
+  padding: 0 .3rem;
+  margin: .3rem 0;
+  cursor: pointer; }
+  .editable-field-wrap:hover {
+    border-color: #777; }
+  .editable-field-wrap .editable-actions {
+    margin-left: auto;
+    display: flex;
+    align-items: center; }
+    .editable-field-wrap .editable-actions > span {
+      display: flex;
+      align-items: center; }
+    .editable-field-wrap .editable-actions svg {
+      background: #ccc;
+      border-radius: 50%;
+      margin: 0 .2rem;
+      padding: .1rem;
+      cursor: pointer;
+      transition: all 0.25s ease; }
+      .editable-field-wrap .editable-actions svg:hover {
+        background-color: #777; }
+  .editable-field-wrap [contenteditable] {
+    outline: none;
+    cursor: text;
+    word-break: break-all; }
+  .editable-field-wrap.active-editable {
+    background-color: #fff;
+    border-color: #777; }

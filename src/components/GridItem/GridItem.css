@@ -1,0 +1,23 @@
+.grid-item {
+  flex: 1;
+  min-height: 12rem;
+  border-width: 0 .06rem .06rem 0;
+  border-color: #ddd;
+  border-style: solid;
+  box-sizing: border-box;
+  min-width: 0;
+  flex-basis: 100%; }
+  .grid-item.note-grid-item {
+    order: 1; }
+
+@media only screen and (min-width: 480px) {
+  .grid-item {
+    flex-basis: 50%; } }
+
+@media only screen and (min-width: 768px) {
+  .grid-item {
+    flex-basis: 33.33333%; } }
+
+@media only screen and (min-width: 1200px) {
+  .grid-item {
+    flex-basis: 25%; } }

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.quote-item {
+  padding: .6rem 1.5rem;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; }
+  .quote-item h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: .5rem auto 2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 70%; }
+  .quote-item .quote-body {
+    font-style: italic;
+    margin-bottom: 1rem;
+    flex: 1;
+    position: relative;
+    quotes: "“" "”"; }
+    .quote-item .quote-body:before, .quote-item .quote-body:after {
+      position: absolute;
+      font-size: 7rem;
+      height: 3.7rem;
+      font-family: sans-serif;
+      color: #eee;
+      z-index: -1; }
+    .quote-item .quote-body:before {
+      content: open-quote;
+      left: -.5rem;
+      top: -2.5rem; }
+    .quote-item .quote-body:after {
+      content: close-quote;
+      right: 0;
+      bottom: 0; }
+    .quote-item .quote-body strong {
+      display: block;
+      text-align: right;
+      margin-top: 10px; }

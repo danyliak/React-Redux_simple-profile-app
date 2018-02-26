@@ -1,0 +1,29 @@
+.additional-info h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: .5rem 0;
+  padding: .6rem 1rem 0; }
+
+.additional-info h2 {
+  text-align: center;
+  margin: .5rem 0;
+  font-size: 2.2rem; }
+
+.additional-info .divider {
+  border-bottom: 1px solid #ddd; }
+
+.additional-info h4 {
+  font-size: 1.1rem;
+  min-height: 1.1rem;
+  margin: .3rem 0 1rem;
+  text-align: center;
+  padding: .6rem 1rem; }
+
+.additional-info ul {
+  margin: 0 0 1.5rem;
+  padding: 0 3rem;
+  list-style-type: none;
+  text-align: center; }
+  .additional-info ul li {
+    display: inline-block;
+    margin: 0 .2rem; }

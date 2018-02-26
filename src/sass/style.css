@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+html {
+  font-size: 16px; }
+
+body {
+  min-width: 320px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  margin: 0; }
+  body #profile-app-root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 10px;
+    box-sizing: border-box; }
+  body .inner-page-wrap {
+    padding: 1rem 0; }
+    body .inner-page-wrap .back-link {
+      font-size: 1.2rem;
+      margin-bottom: .5rem;
+      display: inline-block;
+      color: #060cff; }
+  body .error-message {
+    color: #ff2f0f;
+    font-size: .8rem; }
+
+.modal-header {
+  text-align: center;
+  padding: .5rem 0 .2rem;
+  font-weight: 600;
+  font-size: 1.3rem; }
+
+.modal-body {
+  padding: .5rem 1.5rem 1rem; }
+  .modal-body input {
+    width: 100%;
+    padding: .2rem .5rem;
+    margin: .5rem 0;
+    box-sizing: border-box;
+    outline: none; }
+  .modal-body .error-message {
+    text-align: right; }
+  .modal-body .modal-actions {
+    padding: 2rem 0 .5rem;
+    text-align: right; }
+    .modal-body .modal-actions button {
+      margin: 0 .1rem;
+      border-radius: .8rem;
+      color: #fff;
+      text-transform: uppercase;
+      padding: .3rem .7rem;
+      cursor: pointer;
+      outline: none;
+      transition: all 0.25s ease;
+      min-width: 5rem;
+      font-weight: 600; }
+      .modal-body .modal-actions button:last-child {
+        margin-right: 0; }
+      .modal-body .modal-actions button.modal-save {
+        background-color: #333;
+        border: 1px solid #333;
+        color: #fff; }
+        .modal-body .modal-actions button.modal-save:hover {
+          background-color: #4d4d4d;
+          border-color: #4d4d4d; }
+      .modal-body .modal-actions button.modal-close {
+        background-color: transparent;
+        border: none;
+        color: #000; }
+
+/* Custom, iPhone Retina */
+/**/
+/* Extra Small Devices, Phones */
+/**/
+/* Small Devices, Tablets */
+/**/
+/* Medium Devices, Desktops */
+/**/
+/* Large Devices, Wide Screens */
+/**/
+@media only screen and (min-width: 1400px) {
+  html {
+    font-size: 18px; } }
+
+/* Extra Large Devices*/
+@media only screen and (min-width: 1600px) {
+  html {
+    font-size: 20px; } }

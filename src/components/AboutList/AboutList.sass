@@ -1,0 +1,46 @@
+@import "../../sass/variables"
+
+.about-list
+  padding: .6rem 1rem
+  position: relative
+  &:hover
+    ul + svg
+      display: block
+  h3
+    font-size: 1.2rem
+    text-align: center
+    margin: .5rem 0
+    a
+      color: inherit
+      text-decoration: none
+      &:hover
+        text-decoration: underline
+  h4
+    font-size: 1.1rem
+    min-height: 1.1rem
+    margin: .3rem 0 1rem
+    font-weight: 400
+    text-align: center
+  ul
+    list-style-type: disc
+    margin: 0 0 1rem
+    padding-left: 2rem
+    line-height: 1.4
+    + svg
+      position: absolute
+      right: .5rem
+      top: .5rem
+      display: none
+      cursor: pointer
+    li
+      &:hover
+        svg
+          display: inline-block
+      .about-item-wrap
+        display: flex
+        align-items: center
+      svg
+        color: $remove-error-color
+        margin-left: .5rem
+        cursor: pointer
+        display: none
