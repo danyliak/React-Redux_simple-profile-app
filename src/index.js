@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 import { PersistGate } from 'redux-persist/integration/react'
 import Modal from 'react-modal'
+import 'core-js'
 
 import registerServiceWorker from './registerServiceWorker'
 import './sass/style.css'

@@ -3,7 +3,7 @@
   display: flex;
   text-align: center; }
   .top-information .profile-image {
-    background: url("/img/photo.jpg") no-repeat center center;
+    background: no-repeat center center;
     background-size: cover; }
   .top-information .top-descr {
     box-sizing: border-box; }

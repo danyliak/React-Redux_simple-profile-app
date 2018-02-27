@@ -6,7 +6,10 @@ import Skills from '../Skills'
 
 const TopInformation = () => (
     <div className="top-information">
-        <div className="profile-image"></div>
+        <div
+            className="profile-image"
+            style={{backgroundImage: `url(${process.env.PUBLIC_URL}/img/photo.jpg)`}}
+        ></div>
         <div className="top-descr">
             <MainTopInfo />
             <Skills />

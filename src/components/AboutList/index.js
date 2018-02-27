@@ -24,8 +24,8 @@ const AboutList = ({
                         <strong>{item.name}, </strong>
                         <span>{item.description}</span>
                         <CloseIcon
-                            width={18}
-                            height={18}
+                            width={12}
+                            height={12}
                             fill="#ff2f0f"
                             onClick={() => removeItem(item.id)}
                         />

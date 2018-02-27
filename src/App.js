@@ -1,3 +1,4 @@
+/* global process */
 import React, { Fragment } from 'react'
 import { Route, BrowserRouter, Switch } from 'react-router-dom'
 
@@ -11,7 +12,7 @@ import NotFoundPage from './components/NotFoundPage'
 const App = () => (
     <Fragment>
         <TopInformation />
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route exact path="/" component={GridInformation} />
                 <Route exact path="/code" component={CodeDetails} />

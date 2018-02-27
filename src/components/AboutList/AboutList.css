@@ -31,11 +31,10 @@
       cursor: pointer; }
     .about-list ul li:hover svg {
       display: inline-block; }
-    .about-list ul li .about-item-wrap {
-      display: flex;
-      align-items: center; }
     .about-list ul li svg {
       color: #ff2f0f;
       margin-left: .5rem;
       cursor: pointer;
-      display: none; }
+      display: none;
+      position: relative;
+      top: .1rem; }
