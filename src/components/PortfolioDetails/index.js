@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
+import BackIcon from '../SvgIcons/BackIcon'
 
 class PortfolioDetails extends Component {
     constructor(props) {
@@ -15,7 +16,10 @@ class PortfolioDetails extends Component {
 
         return (
             <div className="inner-page-wrap">
-                <Link to="/" className="back-link">Back</Link>
+                <Link to="/" className="back-link">
+                    <BackIcon width={24} height={24} />
+                    <span>Back</span>
+                </Link>
                 <div>
                     <h2>Portfolio details:</h2>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dicta dolores incidunt magnam officia optio velit voluptatem? Laboriosam molestiae, necessitatibus. Alias facere nam, pariatur repellendus sapiente sequi tempore totam voluptatem.

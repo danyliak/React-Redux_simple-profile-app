@@ -18,8 +18,10 @@ body {
     body .inner-page-wrap .back-link {
       font-size: 1.2rem;
       margin-bottom: .5rem;
-      display: inline-block;
-      color: #060cff; }
+      color: #060cff;
+      display: inline-flex; }
+      body .inner-page-wrap .back-link svg {
+        margin-right: .2rem; }
   body .error-message {
     color: #ff2f0f;
     font-size: .8rem; }
@@ -73,7 +75,12 @@ body {
 /* Extra Small Devices, Phones */
 /**/
 /* Small Devices, Tablets */
-/**/
+@media only screen and (min-width: 768px) {
+  body .inner-page-wrap {
+    padding: 2rem 15% 0; }
+    body .inner-page-wrap h2 {
+      text-align: center; } }
+
 /* Medium Devices, Desktops */
 /**/
 /* Large Devices, Wide Screens */
