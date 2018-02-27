@@ -15,7 +15,7 @@ const TopInformation = () => (
             <Skills />
         </div>
         <div className="top-right-action">
-            <button>Print this page</button>
+            <button onClick={() => window.print()}>Print this page</button>
         </div>
     </div>
 );
